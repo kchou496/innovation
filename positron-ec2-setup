@@ -1,0 +1,12 @@
+1. Download Positron installer from here: https://positron.posit.co/download.html
+2. Upload installer to S3
+3. Create EC2 with Ubuntu OS, us-east-2
+4. Install AWS CLI
+    sudo apt update
+    sudo apt install -y unzip curl
+    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    unzip awscliv2.zip
+    sudo ./aws/install
+5. Copy Positron installer from S3
+6. Install Positron
+    sudo apt install ./Positron-2025.10.1-4-x64.deb
