@@ -10,3 +10,7 @@
 5. Copy Positron installer from S3
 6. Install Positron
     sudo apt install ./Positron-2025.10.1-4-x64.deb
+
+
+Workbench Setup
+openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 -nodes   -keyout ${FILENAME}.key -out ${FILENAME}.crt   -subj "/CN=${CN}"   -extensions SAN   -config <(echo "[req]
