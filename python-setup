@@ -1,0 +1,6 @@
+alias python=/usr/local/bin/python3.13
+python -m venv .venv
+source .venv/bin/activate
+
+pip install requests
+pip install pandas
