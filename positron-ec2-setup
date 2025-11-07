@@ -15,3 +15,5 @@
 Workbench Setup
 SSL config - https://docs.posit.co/ide/server-pro/admin/access_and_security/secure_sockets.html
 openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 -nodes   -keyout ${FILENAME}.key -out ${FILENAME}.crt   -subj "/CN=${CN}"   -extensions SAN   -config <(echo "[req]
+
+aws configure export-credentials --format env
