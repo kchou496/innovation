@@ -16,9 +16,16 @@ DOWNLOAD_URLS = [
     # "https://www.ers.usda.gov/webdocs/DataFiles/50472/fruit2013.xlsx",
     # "https://www.ers.usda.gov/webdocs/DataFiles/50472/vegetables2016.xlsx",
     # "https://www.ers.usda.gov/webdocs/DataFiles/50472/fruit2016.xlsx",
-    "https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/51035/Fruit-Prices-2022.csv?v=64514",
-    "https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/51035/Vegetable-Prices-2022.csv?v=64879",
-    "https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/51035/vegetables-2020.zip?v=30838"
+
+    # "https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/51035/Fruit-Prices-2022.csv?v=64514",
+    # "https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/51035/Vegetable-Prices-2022.csv?v=64879",
+    # "https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/51035/vegetables-2020.zip?v=30838"
+
+    "https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/51035/fruit-2020.zip?v=66348",
+    "https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/51035/vegetables-2016.zip?v=74957",
+    "https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/51035/fruit-2016.zip?v=54807",
+    "https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/51035/vegetables-2013.zip?v=54519",
+    "https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/51035/fruit-2013.zip?v=85916"
 ]
 
 
